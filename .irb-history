@@ -1,0 +1,50 @@
+query("textField")
+clear_text("textField")
+keyboard_enter_text("Hai")
+touch("button index:1")
+query("textField marked:;'Author'")
+query("textField marked:'Author'")
+query("textField label:'Author'")
+query("textField ;")
+query("UITableViewCell")
+query("UITableViewCell text:'Author'")
+touch("UITableViewCell text:'Author'")
+clear_text("textField")
+keyboard_enter_text("Hai")
+touch("button index:1")
+touch("UITableViewCell text:'Copyright'")
+query("*")
+scroll "scrollView", :down
+scroll "scrollView", :down
+scroll "scrollView", :down
+scroll "scrollView", :down
+scroll "scrollView", :up
+scroll "scrollView", :up
+scroll "scrollView", :up
+scroll "scrollView", :up
+scroll "scrollView", :up
+touch("button index:1")
+touch("button index:1")
+check_view_with_mark_exists("Hai")
+check_view_with_mark_exists("Haisdsd")
+check_view_with_mark_exists("Hai")
+exit
+start_test_server_in_background
+touch("UINavigationButton accessibilityLabel:'Add'")
+touch("UITableViewCell")
+check_view_with_mark_exists("Hai")exit
+exit
+start_test_server_in_background
+touch("UINavigationButton accessibilityLabel:'Add'")
+touch("UITableViewCell text:'Title'")
+clear_text("textField")
+exit
+start_test_server_in_background
+check_view_with_mark_exists("SriramA")
+check_view_with_mark_exists("SriramA")
+check_view_with_mark_exists("SriramA")
+scroll "scrollView", :up
+scroll "scrollView", :down
+scroll "scrollView", :down
+check_view_with_mark_exists("SriramA")
+exit
